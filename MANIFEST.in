@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include club *.css
+recursive-include club *.csv
+recursive-include club *.html
+recursive-include club *.ico
+recursive-include club *.js
+recursive-include club *.json
+recursive-include club *.md
+recursive-include club *.png
+recursive-include club *.py
+recursive-include club *.svg
+recursive-include club *.txt
+recursive-exclude club *.pyc
