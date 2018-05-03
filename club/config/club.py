@@ -58,7 +58,7 @@ def get_data():
 			]
 		},
 		{
-			"label": _("Member and Sponsors"),
+			"label": _("Contacts and Sponsors"),
 			"icon": "fa fa-hand-holding-usd",
 			"items": [
 				{
@@ -69,8 +69,8 @@ def get_data():
 				},
 				{
 					"type": "doctype",
-					"name": "Club Member",
-					"label": _("Member"),
+					"name": "Contact",
+					"label": _("Contact"),
 					"description": _("Member"),
 				}
 			]

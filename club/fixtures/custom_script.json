@@ -1,0 +1,11 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Contact", 
+  "modified": "2018-05-03 17:05:06.594044", 
+  "name": "Contact-Client", 
+  "script": "frappe.ui.form.on(\"Contact\", {\n\tonload: function(frm) {\n\t\tcur_frm.set_df_property('contact_details','hidden','1');\n\t\tcur_frm.set_df_property('department','hidden','1');\n\t\tcur_frm.set_df_property('designation','hidden','1');\n\t},\n\trefresh: function(frm) {\n\t\tif(frm.doc.is_trainer=='1') {\n\t\t\tsaveAsTrainer();\n\t\t} else {\n\t\t\tremoveAsTrainer();\n\t\t}\n\t\tif(frm.doc.is_player=='1') {\n\t\t\tsaveAsPlayer();\n\t\t} else {\n\t\t\tremoveAsPlayer();\n\t\t}\n\t\tif(frm.doc.is_team_carer=='1') {\n\t\t\tsaveAsCarer();\n\t\t} else {\n\t\t\tremoveAsCarer();\n\t\t}\n\t}\n});\n\nfunction saveAsTrainer() {\n\t\n}\nfunction saveAsPlayer() {\n\t\n}\nfunction saveAsCarer() {\n\t\n}\nfunction removeAsTrainer() {\n\t\n}\nfunction removeAsPlayer() {\n\t\n}\nfunction removeAsCarer() {\n\t\n}", 
+  "script_type": "Client"
+ }
+]
