@@ -84,6 +84,12 @@ def get_data():
 					"name": "Club Invoice",
 					"label": _("Invoice"),
 					"description": _("Invoice"),
+				},
+				{
+					"type": "doctype",
+					"name": "Fee",
+					"label": _("Fees"),
+					"description": _("Fees"),
 				}
 			]
 		},
